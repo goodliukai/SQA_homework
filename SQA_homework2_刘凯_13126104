@@ -2,12 +2,22 @@ The summary of the content of week 2.
 
 The content of week 2 focuses on three parts: QA in Context, Quality Engineering and testing.
 
-I got that QA in context means  QA in the overall development context. In different processes, QA focuses on different things. Before coding, QA focuses on defect prevention. After coding, QA focus on defect removal. In the release and support process, it focuses on defect containment. I think it not only applies to the waterfall model but also some other models but the ways QA make an impact are diffrent. QA scattered throughout all processes. Different test methods can be used in different processes to verify or validate their quality.
+I got that QA in context means  QA in the overall development context. In different processes, 
+QA focuses on different things. Before coding, QA focuses on defect prevention. After coding, 
+QA focus on defect removal. In the release and support process, it focuses on defect containment.
+I think it not only applies to the waterfall model but also some other models but the ways QA 
+make an impact are diffrent. QA scattered throughout all processes. Different test methods can 
+be used in different processes to verify or validate their quality.
 
-SQE(software quality engineering) contains three activities : quality planning, QA activities and QA analysis/feedback which all are part of development activities.
+SQE(software quality engineering) contains three activities : quality planning, QA activities 
+and QA analysis/feedback which all are part of development activities.
 
-Testing is part of QA. It focus on four key questions: 1. Why: quality demonstration vs. defect detection and removal. 2. How: techniques/activities/process/etc.
-3. View: functional/external/black-box vs. structural/internal/white-box. 4. Exit: coverage vs. usage-based. We can divide testing by some ways, such as functional or structural and black-box vs. white-box. We can't stop testing before all the quality-based criteria are reached if we don't hava resource limit(time or money...).
+Testing is part of QA. It focus on four key questions: 1. Why: quality demonstration vs. defect
+detection and removal. 2. How: techniques/activities/process/etc.
+3. View: functional/external/black-box vs. structural/internal/white-box. 4. Exit: coverage vs. 
+usage-based. We can divide testing by some ways, such as functional or structural and black-box 
+vs. white-box. We can't stop testing before all the quality-based criteria are reached if we 
+don't hava resource limit(time or money...).
 
 That's my summary of week 2.
 
