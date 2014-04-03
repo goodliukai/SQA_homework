@@ -1,0 +1,43 @@
+I hava read the chapter 13-15 and here I write down my understanding of formal methods in general;
+
+I get to know some mothods for formal specification to eliminate imprecision in design/implementation 
+
+in chapter 14 and some to formally verify fault absence in chapter 15.
+
+One formula： Formal methods = formal specification + formal verification。Formal specification (FS) 
+
+is part of defect prevention to prevent/reduce defect injection due to imprecision, ambiguity, etc. 
+
+Formal verification is part of QA, but focus on positive "Prove absence of fault".
+
+For formal inspection, generic process is: Planning and preparation (individual), Collection (group/meeting) 
+
+and Repair (followup). Based on that generic process, there are some variations of it. Fagan inspection and 
+
+other expanded Fagan inspections are mentioned which include six steps: Planning Overview (1-to-n meeting), 
+
+Preparation (individual inspection), Inspection (n-to-n meeting), Rework, Follow-up. No matter what type of 
+
+generic process, we must do as the rules and they have more force than informal inspection(Desk check, Informal 
+
+review, Walkthroughs).
+
+For formal verification, basic approaches include Floyd/Hoare axiomatic, Dijkstra/Gries weakest precond (WP),
+
+Mills’ prog calculus/functional approach, etc. Its basis for verification include logic (axiomatic and WP),
+
+mathematical function (Mills) and other formalisms. Procedures/steps used are bottom-up (axiomatic), backward 
+
+chaining (WP), forward composition (Mills), etc.
+
+Ok, the model checking which is behavioral specification via FSMs. It makes properties of interest expressed 
+
+as a suitable formula. It uses some algorithm/program to check proposition validity.
+
+That's all.
+
+刘凯
+
+13126104
+
+2014/4/3
