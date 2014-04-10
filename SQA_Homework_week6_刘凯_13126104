@@ -1,0 +1,39 @@
+After reading chapter 16 and chapter 17, I find out some pairwise comparisons between testing and other QA alternatives. QA alternatives compared to testing are defect prevention (DP), inspection, formal verification (FV), fault tolerance (FT), failure containment (FC), etc.
+
+Firsly, testing vs. defect prevention
+
+1) Applicability: testing focuses on code but defect prevention focuses on known causes.
+2) Effectiveness: testing deals with occasional failures but defect prevention deals with systematic problems.
+3) Cost: the cost of test is medium but that of defect prevention is low(lower than testing).
+
+Secondly, testing vs. inspection
+
+1) Applicability: testing focuses on code but inspection focuses on s/w artifacts.
+2) Effectiveness: testing deals with occasional failures but inspection deals with scattered faults.
+3) Cost: the cost of test is medium but that of inspection is low-medium(lower than testing).
+
+Thirdly, testing vs. formal verification
+
+1) Applicability: testing focuses on code but formal verification focuses on formal specification.
+2) Effectiveness: testing deals with occasional failures but formal verification deals with fault absence.
+3) Cost: the cost of test is medium but that of formal verification is high(higher than testing).
+
+Fourthly, testing vs. fault tolerance
+
+1) Applicability: testing focuses on code but fault tolerance focuses on duplication.
+2) Effectiveness: testing deals with occasional failures but fault tolerance deals with rare-cond. failures.
+3) Cost: the cost of test is medium but that of fault tolerance is high(higher than testing).
+
+Fifthly, testing vs. failure containment
+
+1) Applicability: testing focuses on code but failure containment focuses on known hazards.
+2) Effectiveness: testing deals with occasional failures but failure containment deals with rare-cond. accidents.
+3) Cost: the cost of test is medium but that of failure containment is highest(higher than all).
+
+That's all
+
+刘凯
+
+13126104
+
+2014/4/11
