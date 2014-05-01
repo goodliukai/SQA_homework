@@ -1,0 +1,47 @@
+                          How to ensure the quality of a software system
+
+                                        13126104 刘凯
+
+In this article, on the basis of the project I worked as an intern in TR and the content of this course, 
+I will talk about how to ensure the quality of a software system.
+
+First of all, what is the quality of a software system? I agree with a definition that is conformance to 
+requirements. Of course there is a narrow definition: lack of "bugs" in the product. This article mainly 
+focuses on how to reduce product bug on quality assurance. 
+
+There are many quality assurance methods, testing, Software Review, etc. we are more familiar with testing 
+technology, but software review technology cannot be ignored.
+
+I worked as a developer from the start of a project for about one year during the internship in 
+TomsonReuters. I got some understanding of how to ensure the quality of product at that time, and through 
+this course I also transformed it into theory.
+
+In the project development process, the main method of quality assurance is testing which is mainly divided 
+into unit testing and end-to-end testing.
+
+Unit testing is a kind of white-box testing method, mainly completed by developers. Developers design many 
+cases of input and output to the test code according to their own code structure, with the minimum function 
+module as a unit. The time spent on unit test may not even shorter than coding, but it is very effective to 
+guarantee the quality of the code. It can also be used to ensure that fixing bugs or adding functionality 
+will not cause a new bug.
+
+For end-to-end testing, people tend to be more familiar with it. Testers write test cases according to a 
+certain input and output as a type of black-box testing. The bug should be feedback to the developer and 
+the developers must modify their code and submit to the testers. The end-to-end testing is usually carried 
+out in the end of an iteration cycle.
+
+In addition, the software review technology is very important. Coding needs peer review, requirements need 
+to be reviewed and each stage of a software process needs to be reviewed to ensure the quality. At ordinary 
+times walkthroughs technology may be used for informal review.
+A very important point of quality assurance is: giving enough respect to quality assurance department. To 
+ensure the results (testing report, etc.) of the quality assurance department have effective feedback and 
+the development team must try their best to cooperate. It is an important enterprise culture.
+
+QA is in the overall development context. In different processes, QA focuses on different things. Before 
+coding, QA focuses on defect prevention. After coding, QA focus on defect removal. In the release and support 
+process, it focuses on defect containment. I think it not only applies to the waterfall model but also some 
+other models but the ways QA make an impact are different. QA scattered throughout all processes. Different 
+test methods can be used in different processes to verify or validate their quality.
+
+
+The above is my understanding of quality assurance of a software system.
